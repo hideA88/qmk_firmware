@@ -8,7 +8,7 @@ see https://docs.qmk.fm/#/keycodes
 
 ## build mint60 firmware
 
-`docker run --rm -e keymap=hideA88 -e keyboard=mint60 -v $('pwd'):/qmk edasque/qmk_firmware`
+`docker run --rm -e KEYMAP=hideA88 -e KEYBOARD=mint60 -v $('pwd'):/qmk_firmware edasque/qmk_firmware`
 `cp .build build`
 
 ## write firmware
